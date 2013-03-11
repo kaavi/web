@@ -1,8 +1,3 @@
-@import "960_24_col.css";
-
-@import "reset.css";
-
-@import "text.css";
 section,
 header,
 footer,
@@ -119,7 +114,7 @@ header input {
   width: 120px;
 }
 header p img {
-  margin-top: -40px;
+  margin-top: -80px;
   margin-left: 200px;
   height: 20px;
   width: 20px;
@@ -492,6 +487,9 @@ h6 a {
   padding-right: 10px;
   padding-bottom: 20px;
   color: white;
+}
+#footer-wrap footer section form #timescale {
+  width: 270px;
 }
 footer button {
   float: right;
