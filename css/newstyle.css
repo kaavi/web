@@ -474,7 +474,7 @@ h6 a {
   float: right;
 }
 /******************************
--------------- FOOTER ---------
+------------ FOOTER ---------
 ********************************/
 #footer-wrap {
   background: url(../images/smaller_bg.jpg);
@@ -538,7 +538,7 @@ footer #twitter button {
   display: inline;
 }
 /**************************
---------- FORM ELEMENTS ----
+--------FORM ELEMENTS ----
 ****************************/
 button,
 input,
