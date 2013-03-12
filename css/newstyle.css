@@ -222,17 +222,6 @@ nav .selected {
   font-size: 12px;
   margin-left: 30px;
 }
-#banner button {
-  background: url(../images/buttonBg2.jpg) repeat-x;
-  font-size: 10pt;
-  font-weight: normal;
-  color: white;
-  width: 150px;
-  height: 36px;
-  margin-right: 20px;
-  padding-left: 30px;
-  line-height: 10px;
-}
 #banner h2,
 #banner p {
   padding-right: 450px;
@@ -259,19 +248,33 @@ nav .selected {
   font-size: 12px;
   line-height: 22px;
 }
+#banner #LearnMore {
+  color: white;
+  background: #febf5d;
+  width: 130px;
+  padding-left: 30px;
+  margin-left: 0px;
+}
+#banner #OurWork {
+  color: white;
+  background: #febf5d;
+  width: 130px;
+  padding-left: 30px;
+  margin-left: 40px;
+}
 #banner-wrap {
   clear: both;
   background: url(../images/bannerBg.jpg);
   padding-bottom: 15px;
   border-bottom: 1px solid #bba67b;
-  padding-top: 40px;
+  padding-top: 30px;
   padding-left: 10px;
   padding-right: 0px;
   right: -1px;
 }
 #featured {
   position: absolute;
-  top: 44px;
+  top: 54px;
   left: 380px;
 }
 #featured img:first-child {
@@ -293,20 +296,6 @@ article h2 {
 article h2 a:hover {
   text-decoration: none;
   font-weight: normal;
-}
-#main button,
-#primary .button {
-  background: url(../images/smaller_bg.jpg);
-  width: 100px;
-  height: 32px;
-  float: right;
-  font-size: 13px;
-  font-family: verdana;
-  color: white;
-  padding-left: 20px;
-  font-weight: normal;
-  margin-right: 40px;
-  margin-top: 30px;
 }
 #main {
   padding-top: 30px;
@@ -344,6 +333,15 @@ article h2 a:hover {
   margin-left: 5px;
   color: #247184;
   font-weight: bold;
+}
+#main #TheBlog {
+  color: white;
+  font-size: 12px;
+  background: #40312a;
+  width: 100px;
+  padding-left: 25px;
+  margin-left: 470px;
+  margin-top: 25px;
 }
 /********************************
 -------------- SIDEBAR -------------
@@ -507,6 +505,14 @@ footer button {
 /******************************
 --------RECENT PROJECTS -------
 ********************************/
+#Portfolio {
+  color: white;
+  background: #febf5d;
+  width: 130px;
+  padding-left: 35px;
+  margin-left: 140px;
+  margin-top: 55px;
+}
 #RecentProjects button {
   margin-right: 40px;
   margin-top: 50px;
@@ -537,9 +543,25 @@ footer #twitter button {
 #twitter a {
   display: inline;
 }
+#FollowUs {
+  color: white;
+  background: #febf5d;
+  width: 130px;
+  padding-left: 35px;
+  margin-left: 140px;
+  margin-top: 10px;
+}
 /**************************
 --------FORM ELEMENTS ----
 ****************************/
+footer form #submit {
+  color: white;
+  background: #febf5d;
+  width: 130px;
+  padding-left: 40px;
+  margin-left: 160px;
+  margin-top: 30px;
+}
 button,
 input,
 textarea {
