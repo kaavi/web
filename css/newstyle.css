@@ -39,7 +39,7 @@ header form p {
   text-shadow: 0 -1px 0 #000000;
   text-transform: uppercase;
   top: 7px;
-  left: -25px;
+  left: -30px;
   font-size: 14px;
   font-family: "Gotham Rounded";
 }
@@ -61,6 +61,7 @@ header input {
   border: 1px solid #206577;
   color: white;
   width: 120px;
+  outline-style: none;
 }
 header p img {
   margin-top: -80px;
@@ -171,6 +172,7 @@ nav .selected {
   display: inline-block;
   padding: 7px;
   text-align: center;
+  margin-top: 10px;
 }
 .button:hover {
   background: #feab2a;
