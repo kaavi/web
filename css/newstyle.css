@@ -120,9 +120,62 @@ nav .selected {
   margin-left: 10px;
   margin-bottom: 10px;
 }
+.btn {
+  color: white;
+  background: #febf5d;
+  width: 130px;
+  padding-left: 35px;
+  margin-left: 140px;
+  margin-top: 55px;
+  border-radius: 5px;
+  display: inline-block;
+  padding: 7px;
+  text-align: center;
+  font-size: 12px;
+  font-family: verdana;
+}
+.btn:hover {
+  background: #feab2a;
+  text-decoration: none;
+}
+#FollowUs.btn {
+  color: white;
+  background: #febf5d;
+  width: 130px;
+  padding-left: 35px;
+  margin-left: 140px;
+  margin-top: 55px;
+  border-radius: 5px;
+  display: inline-block;
+  padding: 7px;
+  text-align: center;
+  font-style: normal;
+  margin-top: 10px;
+}
+#FollowUs.btn:hover {
+  background: #feab2a;
+  text-decoration: none;
+}
+#submit {
+  margin-top: 30px;
+}
 /**************************
 ---------- BANNER ----------
 *****************************/
+.button {
+  color: white;
+  background: #febf5d;
+  width: 100px;
+  padding-left: 20px;
+  border-radius: 5px;
+  display: inline-block;
+  padding: 7px;
+  text-align: center;
+}
+.button:hover {
+  background: #feab2a;
+  text-decoration: none;
+}
 #banner {
   border-radius: 10px;
   -webkit-border-radius: 10px;
@@ -198,17 +251,9 @@ nav .selected {
   line-height: 22px;
 }
 #banner #LearnMore {
-  color: white;
-  background: #febf5d;
-  width: 130px;
-  padding-left: 30px;
   margin-left: 0px;
 }
 #banner #OurWork {
-  color: white;
-  background: #febf5d;
-  width: 130px;
-  padding-left: 30px;
   margin-left: 40px;
 }
 #banner-wrap {
@@ -438,19 +483,6 @@ h6 a {
 #footer-wrap footer section form #timescale {
   width: 270px;
 }
-footer button {
-  float: right;
-  background: url(../images/buttonBg2.jpg) repeat-x;
-  font-size: 10pt;
-  font-weight: normal;
-  color: white;
-  width: 140px;
-  height: 36px;
-  margin-right: 20px;
-  padding-left: 30px;
-  line-height: 10px;
-  margin-top: 30px;
-}
 /******************************
 --------RECENT PROJECTS -------
 ********************************/
@@ -486,31 +518,12 @@ footer p span,
   color: #2e91a0;
   font-style: italic;
 }
-footer #twitter button {
-  margin-top: 5px;
-}
 #twitter a {
   display: inline;
-}
-#FollowUs {
-  color: white;
-  background: #febf5d;
-  width: 130px;
-  padding-left: 35px;
-  margin-left: 140px;
-  margin-top: 10px;
 }
 /**************************
 --------FORM ELEMENTS ----
 ****************************/
-footer form #submit {
-  color: white;
-  background: #febf5d;
-  width: 130px;
-  padding-left: 40px;
-  margin-left: 160px;
-  margin-top: 30px;
-}
 button,
 input,
 textarea {
