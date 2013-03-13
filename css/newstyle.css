@@ -133,7 +133,7 @@ nav .selected {
   padding: 7px;
   text-align: center;
   font-size: 12px;
-  font-family: verdana;
+  font-family: caudexregular;
 }
 .btn:hover {
   background: #feab2a;
@@ -173,6 +173,8 @@ nav .selected {
   padding: 7px;
   text-align: center;
   margin-top: 10px;
+  font-family: caudexregular;
+  font-size: 14px;
 }
 .button:hover {
   background: #feab2a;
