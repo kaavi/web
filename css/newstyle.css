@@ -34,13 +34,13 @@ header form {
 header form p {
   font-weight: normal;
   margin-bottom: 0;
-  margin-left: 76px;
+  margin-left: 56px;
   position: relative;
   text-shadow: 0 -1px 0 #000000;
   text-transform: uppercase;
   top: 7px;
   left: -30px;
-  font-size: 14px;
+  font-size: 12px;
   font-family: "Gotham Rounded";
 }
 header h1 {
@@ -65,7 +65,7 @@ header input {
 }
 header p img {
   margin-top: -80px;
-  margin-left: 200px;
+  margin-left: 190px;
   height: 20px;
   width: 20px;
   left: -30px;
