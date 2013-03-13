@@ -332,10 +332,14 @@ article h2 a:hover {
   color: white;
   font-size: 12px;
   background: #40312a;
-  width: 100px;
-  padding-left: 25px;
+  width: 80px;
+  padding-left: 10px;
   margin-left: 470px;
   margin-top: 25px;
+}
+#main #TheBlog:hover {
+  background: #5f493e;
+  text-decoration: none;
 }
 /********************************
 -------------- SIDEBAR -------------
