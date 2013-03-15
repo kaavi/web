@@ -488,7 +488,8 @@ h6 a {
   padding-bottom: 20px;
   color: white;
 }
-#footer-wrap footer section form #timescale {
+#footer-wrap footer section form #timescale,
+#footer-wrap footer section form projectDetials {
   width: 270px;
 }
 /******************************
@@ -597,6 +598,90 @@ footer nav li:first-child::before {
 }
 footer nav li {
   float: left;
+}
+@font-face {
+  font-family: 'caudexregular';
+  src: url('../fonts/caudex-regular-webfont.eot');
+  src: url('../fonts/caudex-regular-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/caudex-regular-webfont.woff') format('woff'), url('../fonts/caudex-regular-webfont.ttf') format('truetype'), url('../fonts/caudex-regular-webfont.svg#caudexregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'caudexitalic';
+  src: url('caudex-italic-webfont.eot');
+  src: url('caudex-italic-webfont.eot?#iefix') format('embedded-opentype'), url('caudex-italic-webfont.woff') format('woff'), url('caudex-italic-webfont.ttf') format('truetype'), url('caudex-italic-webfont.svg#caudexitalic') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'caudexbold';
+  src: url('caudex-bold-webfont.eot');
+  src: url('caudex-bold-webfont.eot?#iefix') format('embedded-opentype'), url('caudex-bold-webfont.woff') format('woff'), url('caudex-bold-webfont.ttf') format('truetype'), url('caudex-bold-webfont.svg#caudexbold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'caudexbold_italic';
+  src: url('caudex-bolditalic-webfont.eot');
+  src: url('caudex-bolditalic-webfont.eot?#iefix') format('embedded-opentype'), url('caudex-bolditalic-webfont.woff') format('woff'), url('caudex-bolditalic-webfont.ttf') format('truetype'), url('caudex-bolditalic-webfont.svg#caudexbold_italic') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'crimsonitalic';
+  src: url('crimson-italic-webfont.eot');
+  src: url('crimson-italic-webfont.eot?#iefix') format('embedded-opentype'), url('crimson-italic-webfont.woff') format('woff'), url('crimson-italic-webfont.ttf') format('truetype'), url('crimson-italic-webfont.svg#crimsonitalic') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'crimsonroman';
+  src: url('crimson-roman-webfont.eot');
+  src: url('crimson-roman-webfont.eot?#iefix') format('embedded-opentype'), url('crimson-roman-webfont.woff') format('woff'), url('crimson-roman-webfont.ttf') format('truetype'), url('crimson-roman-webfont.svg#crimsonroman') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'credit_valleyregular';
+  src: url('creditvalley-webfont.eot');
+  src: url('creditvalley-webfont.eot?#iefix') format('embedded-opentype'), url('creditvalley-webfont.woff') format('woff'), url('creditvalley-webfont.ttf') format('truetype'), url('creditvalley-webfont.svg#credit_valleyregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'credit_valleybold';
+  src: url('creditvalleybold-webfont.eot');
+  src: url('creditvalleybold-webfont.eot?#iefix') format('embedded-opentype'), url('creditvalleybold-webfont.woff') format('woff'), url('creditvalleybold-webfont.ttf') format('truetype'), url('creditvalleybold-webfont.svg#credit_valleybold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'credit_valleybold_italic';
+  src: url('creditvalleybolditalic-webfont.eot');
+  src: url('creditvalleybolditalic-webfont.eot?#iefix') format('embedded-opentype'), url('creditvalleybolditalic-webfont.woff') format('woff'), url('creditvalleybolditalic-webfont.ttf') format('truetype'), url('creditvalleybolditalic-webfont.svg#credit_valleybold_italic') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'credit_valleybold';
+  src: url('creditvalleybold-webfont.eot');
+  src: url('creditvalleybold-webfont.eot?#iefix') format('embedded-opentype'), url('creditvalleybold-webfont.woff') format('woff'), url('creditvalleybold-webfont.ttf') format('truetype'), url('creditvalleybold-webfont.svg#credit_valleybold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'credit_valleybold_italic';
+  src: url('creditvalleybolditalic-webfont.eot');
+  src: url('creditvalleybolditalic-webfont.eot?#iefix') format('embedded-opentype'), url('creditvalleybolditalic-webfont.woff') format('woff'), url('creditvalleybolditalic-webfont.ttf') format('truetype'), url('creditvalleybolditalic-webfont.svg#credit_valleybold_italic') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'credit_valleyitalic';
+  src: url('creditvalleyitalic-webfont.eot');
+  src: url('creditvalleyitalic-webfont.eot?#iefix') format('embedded-opentype'), url('creditvalleyitalic-webfont.woff') format('woff'), url('creditvalleyitalic-webfont.ttf') format('truetype'), url('creditvalleyitalic-webfont.svg#credit_valleyitalic') format('svg');
+  font-weight: normal;
+  font-style: normal;
 }
 section,
 header,

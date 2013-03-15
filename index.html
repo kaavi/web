@@ -10,6 +10,12 @@
 <link href="CSS/960_24_col.css" rel="stylesheet"/>
 <link href="CSS/text.css" rel="stylesheet"/>
 <link href="css/newstyle.css" rel="stylesheet" type="text/css"/>
+<script src="js/jquery.js"></script>
+
+<script  src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
+<script src="js/scripts.js"></script>
+<script>document.documentElement.className='js';</script>
+
 </head>
 
 
@@ -130,18 +136,18 @@
 	<aside id="secondary" class="grid_8 prefix_1 ">
 	<ul id="tabHeadings">
 		<li class="selected">
-		<a href="comments">Comments</a>
+		<a href="#comments">Comments</a>
 		</li>
-		<li>
-		<a href="categories">Categories</a>
+		<li >
+		<a href="#categories">Categories</a>
 		</li>
-		<li>
-		<a href="Archives">Archives</a>
+		<li >
+		<a href="#archives">Archives</a>
 		</li>
 	</ul>
-	<section class="tabs rounded" id="para">
+	<section class="tabs">
 	<!-- Section1 start -->
-	<ul id ="comments">
+	<ul id ="comments" >
 		<li>
 		<p>
 			 Lorem psum dolor sit amet, consecteturadipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -150,6 +156,7 @@
 		<h6>POSTED BY:Someone on Photoshop Tutorial</h6>
 		</footer>
 		</li>
+
 		<li>
 		<p>
 			 Lorem psum dolor sit amet, consecteturadipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -159,6 +166,45 @@
 		</footer>
 		</li>
 	</ul>
+
+	
+	<ul id="categories" >		
+		<h4>Categories</h4>	
+		    <li>
+				<a href="#">Category</a>
+				</li>
+				<li>
+					<a href="#">Category</a>
+				</li>
+				<li>
+					<a href="#">Category</a>
+				</li>
+				<li>
+					<a href="#">Category</a>
+				</li>
+			</ul>
+	
+		<ul id="archives">
+			<h4>Archives</h4>				
+				<li>
+					<a href="#">Archive</a>
+					</li>
+					<li>
+						<a href="#">Archive</a>
+					</li>
+					<li>
+						<a href="#">Archive</a>
+					</li>
+					<li>
+						<a href="#">Archive</a>
+					</li>
+					<li>
+						<a href="#">Archive</a>
+					</li>
+					<li>
+						<a href="#">Archive</a>
+					</li>
+				</ul> 
 	</section>
 	<!-- Section1 end -->
 	<section id="whoWeAre">
@@ -204,11 +250,12 @@
 	<section class="grid_8">
 	<!-- Form Elements(Get a free Quote section) Start  -->
 	<h3>Get a free Quote</h3>
-	<form action="" method="post">
+	<form action="" method="post" id="GetFreeQuote">
 		<input type="text" id="name" name="name" placeholder="Your name"></input>
 		<input type="text" name="email" placeholder="Your Email"></input>
 		<textarea name="projectDetials" placeholder="Your Project Details. "></textarea>
-		<input type="text" name="timescale" id="timescale" placeholder="Your TimeScale"></input>
+		<input type="text" name="timescale" id="timescale" placeholder="Your TimeScale">
+		</input>
 		<a href="#" class="btn" id="submit">SUBMIT !<a>
 			
 	</form>
@@ -319,6 +366,7 @@
 </div>
 <!--SiteInfo Section End  -->
 </div>
+
 </body>
 <!--Body End  -->
 </html>
