@@ -127,7 +127,7 @@ nav .selected {
   width: 130px;
   padding-left: 35px;
   margin-left: 140px;
-  margin-top: 55px;
+  margin-top: 35px;
   border-radius: 5px;
   display: inline-block;
   padding: 7px;
@@ -145,20 +145,37 @@ nav .selected {
   width: 130px;
   padding-left: 35px;
   margin-left: 140px;
-  margin-top: 55px;
   border-radius: 5px;
   display: inline-block;
   padding: 7px;
   text-align: center;
   font-style: normal;
-  margin-top: 10px;
+  margin-top: 40px;
 }
 #FollowUs.btn:hover {
   background: #feab2a;
   text-decoration: none;
 }
-#submit {
-  margin-top: 30px;
+#portfolio.btn {
+  color: white;
+  background: #febf5d;
+  width: 130px;
+  padding-left: 35px;
+  margin-left: 140px;
+  margin-top: 15px;
+  border-radius: 5px;
+  display: inline-block;
+  padding: 7px;
+  text-align: center;
+  font-style: normal;
+  margin-top: 80px;
+}
+#portfolio.btn:hover {
+  background: #feab2a;
+  text-decoration: none;
+}
+input.btn {
+  margin-top: 55px;
 }
 /**************************
 ---------- BANNER ----------
@@ -488,24 +505,15 @@ h6 a {
   padding-bottom: 20px;
   color: white;
 }
-#footer-wrap footer section form #timescale,
-#footer-wrap footer section form projectDetials {
+#footer-wrap footer section form #timescale {
   width: 270px;
 }
 /******************************
 --------RECENT PROJECTS -------
 ********************************/
-#Portfolio {
-  color: white;
-  background: #febf5d;
-  width: 130px;
-  padding-left: 35px;
-  margin-left: 140px;
-  margin-top: 55px;
-}
 #RecentProjects button {
   margin-right: 40px;
-  margin-top: 50px;
+  margin-top: 70px;
 }
 #RecentProjects li:hover {
   background: #edad4e;
