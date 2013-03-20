@@ -434,6 +434,7 @@ aside #whoWeAre a {
 #archives {
   padding-left: 0;
   padding-right: 0;
+  display: none;
 }
 .tabs li:hover {
   background: #1d6b78;
